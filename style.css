@@ -1,0 +1,11 @@
+:root { --bg: #ffffff; --fg: #1c1c1c; --muted: #5a5a5a; --line: #dddddd; --link: #0b57d0; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #161616; --fg: #e6e6e6; --muted: #a8a8a8; --line: #3a3a3a; --link: #8ab4f8; }
+}
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, "Segoe UI", sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 28px; margin: 0 0 20px; }
+h2 { font-size: 18px; margin: 28px 0 4px; }
+p { margin: 0 0 14px; }
+a { color: var(--link); }
+nav { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line); display: flex; gap: 20px; }
